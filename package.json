@@ -4,8 +4,16 @@
   "main": "index.js",
   "author": "Giácomo Markovicz <giacomocamposv2@hotmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
   "dependencies": {
     "eslint": "^6.3.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.6.11",
+    "require-dir": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
